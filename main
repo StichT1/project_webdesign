@@ -13,6 +13,7 @@
 text-align:center;
 border:3px dashed rgb(0, 0, 0);
 background-color:rgb(255, 255, 255);
+color:rgb(158, 136, 158);
 }
     #topheading{
         text-align:center;
@@ -22,7 +23,7 @@ background-color:rgb(255, 255, 255);
     #button{
         text-align:center;
         border:6px solid;
-        background-color:rgb(195, 197, 207);
+        background-color:rgb(166, 167, 171);
         margin:5px;
     }
     #button:hover{
@@ -47,7 +48,7 @@ background-color:rgb(255, 255, 255);
 </style>
     </head>
     <body>
- <h1 id="topheading">Apartments</h1>
+ <h1 id="topheading">Apartments In St. Cloud MN</h1>
  
  <ul>
      <li id="list"><a href="#1">Apartment 1</a></li>
@@ -77,4 +78,3 @@ background-color:rgb(255, 255, 255);
         <p id="more"><a href="https://www.apartments.com/saint-cloud-mn/">View more apartments in St. Cloud</a></p>
     </body>
 </html>
-

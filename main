@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Webpage Project</title>
+<style> 
+    body{
+        background-color:rgb(227, 227, 227);
+    }
+
+
+    #apartmentheading {
+text-align:center;
+border:3px dashed rgb(0, 0, 0);
+background-color:rgb(255, 255, 255);
+}
+    #topheading{
+        text-align:center;
+    }
+    
+    #button{
+        text-align:center;
+        border:6px solid;
+        background-color:rgb(195, 197, 207);
+        margin:5px;
+    }
+    #button:hover{
+        background-color:rgb(241, 255, 163);
+    }
+    
+    #more{
+        text-align:center;
+        font-size:30px;
+        border:2mm ridge rgb(255, 255, 255);
+        background-color:rgb(255, 255, 255);
+        
+    }
+    #more:hover{
+        background-color:rgb(241,255,163);
+    }
+    
+    #list:hover{
+        background-color:rgb(130, 193, 232);
+    }
+
+</style>
+    </head>
+    <body>
+ <h1 id="topheading">Apartments</h1>
+ 
+ <ul>
+     <li id="list"><a href="#1">Apartment 1</a></li>
+     <li id="list"><a href="#2">Apartment 2</a></li>
+     <li id="list"><a href="#3">Apartment 3</a></li>
+     <li id="list"><a href="#more">Find more apartments</a></li>
+ </ul>
+  <div id="apartmentheading">  <h2 id="1">Apartment 1</h2>
+        <h3 class="apartmentheading">Oakwood Court Apartments</h3></div>
+    <p>This apartment complex is located at 1821 15th Ave SE, Saint Cloud, MN 56301. Costs $925-$1,100 with 1-2 beds.</p>   
+  <div id="button">  <a href="https://www.apartments.com/oakwood-court-apartments-saint-cloud-mn/z1v5ggz/">--------------------------------Click here to visit apartment 1--------------------------------</a></div>
+
+
+  <div id="apartmentheading">  <h2 id="2">Apartment 2</h2>
+        <h3>Cedar Square Apartments</h3></div>
+    <p>This apartment complex is located at 1570 E St. Germain st, Saint Cloud, MN 56301. Costs $986-$1,031 with 2 beds</p>
+    
+    <div id="button">  <a href="https://www.apartments.com/cedar-square-apartments-saint-cloud-mn/h1z3b10/">--------------------------------Click here to visit apartment 2--------------------------------</a></div>
+
+
+   <div id="apartmentheading"> <h2 id="3">Apartment 3</h2>
+        <h3>The Landing</h3></div>
+    <p>This apartment complex is located at 1212 Washington Memorial Dr, Saint Cloud, MN 56301. Costs $825-$1,250 with 1-2 beds</p>
+
+<div id="button">  <a href="https://www.apartments.com/the-landing-st-cloud-mn/m5lcqeh/">--------------------------------Click here to visit apartment 3--------------------------------</a></div>
+    
+        <p id="more"><a href="https://www.apartments.com/saint-cloud-mn/">View more apartments in St. Cloud</a></p>
+    </body>
+</html>
